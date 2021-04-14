@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".RouteActivity">
 
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -14,7 +13,8 @@
 
         <GridLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:padding="10dp">
 
             <TextView
                 android:id="@+id/startingPointTextView"
@@ -23,7 +23,7 @@
                 android:layout_row="0"
                 android:layout_column="0"
                 android:layout_columnSpan="2"
-                android:text="출발:"
+                android:text="출발역:"
                 android:textSize="14sp" />
 
             <EditText
@@ -44,7 +44,7 @@
                 android:layout_row="1"
                 android:layout_column="0"
                 android:layout_columnSpan="2"
-                android:text="도착:"
+                android:text="도착역:"
                 android:textSize="14sp" />
 
             <EditText
